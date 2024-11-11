@@ -1,0 +1,1 @@
+Context API para maneja el estado global
