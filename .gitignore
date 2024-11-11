@@ -128,4 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+<<<<<<< HEAD
 .vscode
+=======
+>>>>>>> 783ebbab35ee6a29e99e3b3c70463bb2c3c4d66c
