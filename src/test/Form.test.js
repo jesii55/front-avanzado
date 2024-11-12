@@ -10,6 +10,10 @@ describe('Form Component Test', () =>{
         window.alert = jest.fn()
     });
 
+    afterEach(()=>{
+        jest.clearAllMocks();
+    })
+
     test('Renderiza correctamente los campos del formulario', ()=>{
         render(<Form />);
 
@@ -20,6 +24,7 @@ describe('Form Component Test', () =>{
         Expect(screen.getByLabelText(/edad/i)).toBeInTheDocument();
     })
     });
+    
 test('Muestra alerta si el correo no es valido', async () =>{
     render(<Form />);
 
